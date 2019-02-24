@@ -16,13 +16,13 @@ def separateRGB(img):
 
 	#Salva imagens em R, G e B
 	img.putdata(r)
-	img.save('R.png')
+	img.save('Imagens/R.png')
 	img.putdata(g)
-	img.save('G.png')
+	img.save('Imagens/G.png')
 	img.putdata(b)
-	img.save('B.png')
+	img.save('Imagens/B.png')
 	#img.putdata(invertido)
-	#img.save('Negativo.png')
+	#img.save('Imagens/Negativo.png')
 
 	#print('Conversão Completa!')
 
